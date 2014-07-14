@@ -45,7 +45,11 @@ class Person {
 
    public function set_frist_name($frist_name) 
     {
-      $this->frist_name = $frist_name;
+       if(strlen($frist_name) >= 2)
+       {
+           $this->frist_name = $frist_name;
+       }
+      
     }
 
    public function set_middle_name($middle_name) 
