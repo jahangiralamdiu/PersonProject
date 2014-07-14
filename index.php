@@ -16,7 +16,7 @@ and open the template in the editor.
         
         $a_person = new Person();
         
-        $a_person->frist_name = 'James';
+        $a_person->set_frist_name('James');
         
         $a_person->middle_name = 'Locus';
         

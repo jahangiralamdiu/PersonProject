@@ -28,29 +28,35 @@ class Person {
    }
    
    
-   public function get_frist_name() {
+   public function get_frist_name() 
+    {
        return $this->frist_name;
-   }
+    }
 
-   public function getMiddle_name() {
+   public function getMiddle_name() 
+    {
        return $this->middle_name;
-   }
+    }
 
-   public function getLast_name() {
+   public function getLast_name() 
+    {
        return $this->last_name;
-   }
+    }
 
-   public function set_frist_name($frist_name) {
-       $this->frist_name = $frist_name;
-   }
+   public function set_frist_name($frist_name) 
+    {
+      $this->frist_name = $frist_name;
+    }
 
-   public function set_middle_name($middle_name) {
-       $this->middle_name = $middle_name;
-   }
+   public function set_middle_name($middle_name) 
+    {
+      $this->middle_name = $middle_name;  
+    }
 
-   public function set_last_name($last_name) {
-       $this->last_name = $last_name;
-   }
+   public function set_last_name($last_name) 
+    {
+      $this->last_name = $last_name;
+    }
 
 
 }
