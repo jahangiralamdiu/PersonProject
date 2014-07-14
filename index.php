@@ -18,9 +18,9 @@ and open the template in the editor.
         
         $a_person->set_frist_name('James');
         
-        $a_person->middle_name = 'Locus';
+        $a_person->set_middle_name('Locus');
         
-        $a_person->last_name = 'Scott';
+        $a_person->set_last_name('Scott');
         
         echo $a_person->get_full_name()."<br/>";
         
