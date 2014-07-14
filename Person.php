@@ -12,7 +12,17 @@ class Person {
    
    public $last_name;
    
+   public function __construct($first_name, $middle_name, $last_name) 
+   {
+       $this->frist_name = $first_name;
+       
+       $this->middle_name = $middle_name;
+       
+       $this->last_name = $last_name;
+   }
+
    
+
    public function get_full_name()
    {
        return $this->frist_name.' '.$this->middle_name.' '.$this->last_name;
